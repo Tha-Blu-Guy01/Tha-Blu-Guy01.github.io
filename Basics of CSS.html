@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>CSS Style Sheets!</title>
+            <link rel="stylesheet" href="CSS 1.css">
+            <link rel="stylesheet" href="CSS 2.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+                img {border: 7px solid rgb(239,241,241); padding: 0px}
+                .yellow {color:rgb(238,211,105)}
+                .JustDo {font-size:large; font-family:cursive}
+                p {font-size:large; font-family:cursive}
+
+                body {margin: 0;}
+                .topnav {overflow: hidden; background-color: rgba(95, 105, 143, 0.498);}
+                .topnav a {float: left; color: #f2f2f2; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px;}
+                .topnav a:hover {background-color: rgba(13,60,85, .95); color: rgb(238,211,105);}
+                .topnav a.active {background-color: white; color: rgb(100, 65, 165);}
+
+            </style>
+        </head>
+        <body id="CSSMoreLikeCSSTooEasy">
+
+            <div class="topnav" style="font-family:cursive">
+                <a href="Index.html">Home</a>
+                <a href="Basics of HTML.html">HTML</a>
+                <a class="active" href="Basics of CSS.html">CSS</a>
+                <a href="Basics of JavaScript.html">Javascript</a>
+                <a href="JavaScript games.html">Games</a>
+              </div>
+                <br>
+            <h1 style="text-align:center">The Basics of CSS Style Sheets!</h1>
+                <br>
+                <br>
+                <br>
+            <div style="background-color: rgba(95, 105, 143, 0.498); color:rgb(255, 255, 255)">
+                <h2>What is CSS?</h2>
+                    <br>
+                    <hr>
+                    <br>
+                <p class="big">CSS stands for "<i>Cascading Style Sheet</i>".</p>
+                <p>This describes the way certain decorating elements are displayed.</p>
+                <p>so if I wanted the text "Hi there" to be green, I'd add it as: "&lt;p style="color:green"&gt;Hi there&lt;/p&gt;".</p>
+                <p>Firstly, this is one of the many ways of adding a CSS element(s).</p>
+                <p>the "style=" shows that there's something you'd want to decorate in the text with "'color:green'" signifying what the change is.</p>
+            <div style="background-color: rgba(95, 105, 143, 0.498); color:rgb(255, 255, 255)">
+                <h2>Ways on using CSS</h2>
+                    <br>
+                    <hr>
+                    <br>
+                <p>A way of using CSS elements can linked from another file document or a css doc; hence, "Style Sheet". This is called "<b>External CSS</b>"</p>
+                <p>Most pages in this entire website are formatted the same, they share similar css documents while this page has its own.</p>
+                <p>unlike the example, this is formatted differently as insteaad of "style=" you'd insert what HTML elements you want to affect. The "&lt;" and "&gt;" are not needed.
+                    <br> and instead of quotation marks, you'd add curly brackets surrounding the decoration commands.</p>
+                    <p>an example being: p {color:green}</p>
+                    <hr>
+                <p>You can also decorate HTML elements on the same document in two ways: <b>Internal CSS</b> and <b>Inline CSS</b></p>
+                <p>With internal CSS, this involves adding CSS elements into the "head" segment; plus, they are added in the same format as External CSS.
+                    <br>This will effect all HTML elements on the document that follow the element you inserted.</p>
+                    <hr>
+                <p>Finally, Inline is more direct as these are added only specifically to one HTML element</p>
+                <p>They are inserted within the HTML element as shown within the example.</p>
+                <p>These will only affect the HTML element they are with.</p>
+            <div>
+                <h2>The CSS Hierarchy</h2>
+                    <br>
+                    <hr>
+                    <br>
+                <p>When it comes to Webpages, you'll bound to have more than one CSS decoration in your document.</p>
+                <p>So how will these different forms of CSS interact with each other? Answer: they're in a hierarchy.</p>
+                <p>Within this hierarchy of deciding how a certain HTML element will be shown is dependent on who's closer to the element within the code. The code will be read top to bottom and apply in the order read.</p>
+                    <hr>
+                    <ol class="JustDo" style="text-align:center; list-style-position:inside;">
+                <p><li>Inline CSS has the most power in all as they are right next to the element; thus, the HTML element will be shown with what the Inline says.</li></p>
+                    <hr>
+                <p><li>Internal CSS is the second in the most power as they are also within the document but are held at the top.</li></p>
+                    <hr>
+                <p><li>Finally, External CSS is at the very bottom in power as they are the furthest away from the HTML element being in a whole seprate document.</li></p>
+                    </ol>
+                    <br>
+                        <!--<ol> and </ol> marks the location on what's being numbered while <li> and </li> marks them-->
+            <img src="SOMUCHWORDS.gif" alt="brain exploading because too much information" width="485" height="273">
+            
+            </div>
+            </div>
+            </div>
+                <br>
+                <hr>
+                <br>
+                <ul class="JustDo yellow">
+        <a class="yellow" href="Basics of HTML.html"><li>Learning the Basics of HTML</li></a>
+            <br>
+        <a class="yellow" href="Index.html"><li>Home</li></a>
+            <br>
+        <a class="yellow" href="Basics of JavaScript.html"><li>Learning the Basics of JavaScript</li></a>
+            <br>
+        <a class="yellow" href="JavaScript games.html"><li>Games made by using JavaScript</li></a>
+                </ul>
+        </body>
+    </html>

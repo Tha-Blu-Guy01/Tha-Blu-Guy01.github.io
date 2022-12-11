@@ -1,0 +1,23 @@
+body {
+    background-color: rgba(44, 47, 51, 0.95);
+}
+#mainPage {background-image: url("Index code.png");
+    background-blend-mode: darken;}
+
+#HTMLTooBasic {background-image: url("Basics\ of\ HTML\ code.png");
+    background-blend-mode: darken;}
+
+h1 {color: rgb(88 101 242);
+    text-align:center
+}
+
+a {color:white; 
+    font-size:large
+}
+
+div {border: 8px solid rgb(153,153,255); 
+    padding: 18px;
+    text-align:center;
+}
+
+p {font-size:large}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>HTML websites!</title>
+            <link rel="stylesheet" href="CSS 1.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            img {border: 7px solid rgb(153, 153, 255); padding: -5px}
+
+            body {margin: 0;}
+            .topnav {overflow: hidden; background-color: rgba(95, 105, 143, 0.498);}
+            .topnav a {float: left; color: #f2f2f2; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px;}
+            .topnav a:hover {background-color: rgba(44, 47, 51, 0.95); color: rgb(88 101 242);}
+            .topnav a.active {background-color: white; color: rgb(100, 65, 165);}
+
+        </style>
+        </head>
+        <body id="HTMLTooBasic">
+
+            <div class="topnav" style="font-family:cursive">
+                <a href="Index.html">Home</a>
+                <a class="active" href="Basics of HTML.html">HTML</a>
+                <a href="Basics of CSS.html">CSS</a>
+                <a href="Basics of JavaScript.html">Javascript</a>
+                <a href="JavaScript games.html">Games</a>
+              </div>
+                <br>
+            <h1>The Basics of HTML websites!</h1>
+                <br>
+                <br>
+                <br>
+            <div style="background-color: rgba(95, 105, 143, 0.498); color:rgb(255, 255, 255)">
+            <h2>What is HTML?</h2>
+                    <br>
+                    <hr>
+                    <br>
+                <p>To start, HTML stands for "<i>Hyper Text Markup Language</i>"</p>
+                <p>This is because its the "markup language" used to make Webpages; so like, its a language webpages understand that tell to do a specific action.</p>
+                <p>HTML consist of elements. Signals that tell the Webpage to display specific information or looks</p>
+                <p>For instance, if I wanted add text saying "<b>hello world</b>", I'd need to use: "&lt;p&gt;<b>hello world</b>&lt;/p&gt;"</p>
+                    <!--"&lt;" inserts a "<" and "&gt;" inserts a ">"-->
+            <p>The less than and greater than signs are used as the signals to the page while the "p" means the text needs to be inserted as paragraph text</p>
+            <p>Moving forward, the "p" within that signal can be changed for another figure for a different meaning</p>
+            <div  style="background-color: rgba(95, 105, 143, 0.498); color:rgb(255, 255, 255)">
+            <h2>Different types of HTML elements</h2>
+                    <br>
+                    <hr>
+                    <br>
+                <p>In the context of the example shown above, there's a multitude of different kinds of elements that replace the "p":</p>
+                <ul style="text-align:center; list-style-position:inside;">
+                    <p><li>&lt;h1&gt; - sets text selected as a header. "The Basics of HTML websites!" is an h1 element. The "1" can be 1-6 which make text smaller the higher it is.</li></p>
+                    <p><li>&lt;img&gt; - inserts an image. these require more info such as image file, alternative text if it fails to load, and size.
+                        &lt;img src="image file" alt="alternative name" width="###" height="###"&gt;</li></p>
+                    <p><li>&lt;a&gt; - inserts a clickable link. They also require more such as its link, and the name it will display over it.
+                        &lt;a href="link"&gt;display name&lt;/a&gt;</li></p>
+                    <p><li>&lt;div&gt; - these elements do completely nothing ... on its own. These select a multitude of HTML elements and require CSS elements to effect them all at once.</li></p>
+                        <p>To learn more about CSS find it on the top navigation bar or in the link below</p>
+                </ul>
+            <img src="basic structure.png" alt="Basic Structure of HTML" width="442" height="264">
+            </div>
+            </div>
+                <br>
+                <hr>
+                <br>
+                <ul>
+                    <!--<ul> and </ul> marks location of bullet points while <li> and </li> makes them-->
+            <a href="Index.html"><li>Home</li></a>
+                <br>
+            <a href="Basics of CSS.html"><li>Learning the Basics of CSS</li></a>
+                <br>
+            <a href="Basics of JavaScript.html"><li>Learning the Basics of JavaScript</li></a>
+                <br>
+            <a href="JavaScript games.html"><li>Games made by using JavaScript</li></a>
+                </ul>
+        </body>
+    </html>
