@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>A Caclulator made by Java</title>
+            <link rel="stylesheet" href="CSS 1.css">
+            <link rel="stylesheet" href="daJSCSS.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <style>
+            img {border: 7px solid rgb(20, 215, 20); padding: -5px;}
+            .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+            }
+
+            body {margin: 0;}
+            .topnav {overflow: hidden; background-color: hsla(0, 0%, 0%, 0.75);}
+            .topnav a {float: left; color: #f2f2f2; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px;}
+            .topnav a:hover {background-color: rgba(45, 184, 50, 0.95); color: rgb(255, 255, 255);}
+
+            label {color:#f2f2f2; font-family:monospace;}
+            input {text-align:center; color:rgb(20, 215, 20); font-family:monospace; background-color: black;}
+            p {color:rgb(20, 215, 20); font-family:monospace}
+            button {text-align:center; color:rgb(20, 215, 20); font-family:monospace; background-color: black; font-size: 1.4em;}
+
+            button:hover, button:focus, button:active {
+            color: black;
+            background-color: rgb(20, 215, 20);
+            }
+            </style>
+        </head>
+        <body id="JAVASCRIPTISFUNNY" >
+            <div class="topnav" style="font-family:cursive">
+                <a href="Index.html">Home</a>
+                <a href="Basics of HTML.html">HTML</a>
+                <a href="Basics of CSS.html">CSS</a>
+                <a href="Basics of JavaScript.html">Javascript</a>
+                <a href="JavaScript games.html">Games</a>
+              </div>
+                <br>
+        <h1>Usable Calculator</h1>
+                <br>
+                <br>
+                <br>
+            <div> 
+                <label for="Question1">Put first number here:</label>
+                    <br>
+                <input type="number" id="Question1" value="0">
+                    <br>
+                    <br>
+                <label for="Question2">Put second number here:</label>
+                    <br>
+                <input type="number" id="Question2" value="0">
+                    <br>
+                    <br>
+                <label for="Operator">Select an operation:</label>
+                    <br>
+                <input type="radio" id="add" name="operator">
+                <label for="add" style="color:rgb(20, 215, 20)">+</label>
+                    <br>
+                <input type="radio" id="subtract" name="operator">
+                <label for="subtract" style="color:rgb(20, 215, 20)">-</label>            
+                    <br>
+                <input type="radio" id="multiply" name="operator">
+                <label for="multiply" style="color:rgb(20, 215, 20)">x</label>
+                    <br>
+                <input type="radio" id="divide" name="operator">
+                <label for="divide" style="color:rgb(20, 215, 20)">÷</label>
+                    <br>
+                    <br>
+                <input type="submit" id="FreeMath" onclick="init()">
+                    <br>
+                    <br>
+                <p id="FreeMathAnswer">Answer will go here</p>
+                <img src="SussyMathLetters.png" alt="Sussy Letters" class="center" width="382" height="200" id="StinkinNumbers">
+
+                <br>
+                <hr>
+                <br>
+            <div style="text-align:left">    
+                <ul>    
+            <a href="Basics of HTML.html"><li>Learning the Basics of HTML</li></a>
+                <br>
+            <a href="Basics of CSS.html"><li>Learning the Basics of CSS</li></a>
+                <br>
+            <a href="Index.html"><li>Home</li></a>
+                <br>
+            <a href="JavaScript games.html"><li>Games made by using JavaScript</li></a>
+                </ul>
+                    </div> 
+
+
+<script src="calcProperties.js">
+
+                console.log()
+            </script>
+        </body>
+    </html>

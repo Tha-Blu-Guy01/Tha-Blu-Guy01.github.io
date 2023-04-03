@@ -3,19 +3,32 @@
         <head>
             <title>JavaScript Coding!</title>
             <link rel="stylesheet" href="CSS 1.css">
+            <link rel="stylesheet" href="daJSCSS.css">
             <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <style>
-
             body {margin: 0;}
-            .topnav {overflow: hidden; background-color: rgba(95, 105, 143, 0.498);}
+            .topnav {overflow: hidden; background-color: hsla(0, 0%, 0%, 0.75);}
             .topnav a {float: left; color: #f2f2f2; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px;}
-            .topnav a:hover {background-color: rgba(44, 47, 51, 0.95); color: rgb(88 101 242);}
-            .topnav a.active {background-color: white; color: rgb(100, 65, 165);}
+            .topnav a:hover {background-color: rgba(45, 184, 50, 0.95); color: rgb(255, 255, 255);}
+            .topnav a.active {background-color: white; color: rgb(45, 184, 50, 0.95);}
 
+            p {color:rgb(20, 215, 20); font-family:monospace}
+
+        button {
+            font-size: 2.1em;
+            background-color: #63e35a;
+            color: #19156d;
+            border: 3px solid rgb(0, 0, 0);
+        }
+        button:hover, button:focus, button:active {
+            color: #63e35a;
+            background-color: #19156d;
+        }
         </style>
-        </head>
-        <body>
 
+        </head>
+        <body id="JAVASCRIPTISFUNNY">
             <div class="topnav" style="font-family:cursive">
                 <a href="Index.html">Home</a>
                 <a href="Basics of HTML.html">HTML</a>
@@ -24,21 +37,107 @@
                 <a href="JavaScript games.html">Games</a>
               </div>
                 <br>
-        <h1>Nothing to See here ... Yet</h1>
+        <h1>The Basics of JavaScript Coding!</h1>
             <br>
             <br>
             <br>
-        <div style="background-color: rgba(95, 105, 143, 0.498); color:rgb(255, 255, 255)">
-            <h2>What is JavaScript</h2>
+        <div style="background-color: rgba(9, 10, 12, 0.498); color:rgb(255, 255, 255)">
+            <h2>What is JavaScript?</h2>
                 <br>
                 <hr>
                 <br>
-            <p>I dunno</p>
+            <p>JavaScript is another form of language that works with HTML and CSS to make more complex sites.</p>
+            <p>Appart from simple shapes, letters, and images - It can add much more user interactivity to the page.</p>
+            <p>Using JavaScript, you can add things like this button that tells the time!</p>
+                <br>
+            <button onclick="document.getElementById('TIMMEE').innerHTML=Date()">CLICK MEE!!</button>
+            <p Id="TIMMEE">[Time will be here]</p>
+                <br>
+            <p>but why add JavaScript? How can this be helpful?</p>
+            <p>as said previously, JS adds interactivity with the user to the page which can make tons of things like sign-in pages or even games.</p>
+            <p>But it's also worth to mention another plus towards JavaScript.</p>
+
+            <p>When coding, problems will more than likely occur; however, there's no telling where or what.</p>
+            <p>With JS, it introduces console logs!</p>
+            <p>by using console logs, it can report issues that appear in the code but will only give you the idea. </p>
+            <p>To look at the console log, it varries but one way is with Ctrl + Shift + I and to click the "console" tab</p>
+            <p>Since were talkin about it, why not take a look at it.</p>
+
+        <div  style="background-color: rgba(9, 10, 12, 0.498); color:rgb(255, 255, 255)">
+            <h2>Stating the Variables</h2>
+                <br>
+                <hr>
+                <br>
+            <p>Variables can be thought of like x in math.</p>
+            <p>In terms of the problem, x can mean one thing and one thing only.</p>
+            <p>With JavaScript in mind, x holds information that applies to THAT page.
+            <p>there many forms of x that can exist:</p>
+            <ol style="text-align:center; list-style-position:inside;">
+                <p><i>Null - "x" that has no value</i></p>
+                <p><i>Undefined - "x" that HAS value but isn't assigned to anything.</i></p>
+                <p><i>Boolean - makes "x" true or false (there or not) based on other values.</i></p>
+                <p><i>String - a combination of values (numbers and words) so like "x" combined with "y".</i></p>
+                <p><i>Number - AKA an integer and is basically just a number.</i></p>                
+                <p><i>Bigint - A number that is too large for the computer to handle.</i></p>
+                <p><i>Object - A more complex version of a string as they hold alot more than just variables</i></p>
+                    </ol>
+                    <hr>
+                <p>Alright, so we have all these forms of variables, but how do we even use them properly?</p>
+                    <br>
+                <p>When you have the variables you want to add, you firsr need to DECLARE them.</p>
+                <p>Tell the website that "x" exists in the document</p>
+                <p>There are many different keywords that are used to declare a variable as there is keywords period:</p>
+            <ol style="text-align:center; list-style-position:inside;">
+                <p><i>Var - declares a variable that is able to be changed later on in code.</i></p>
+                <p><i>Let - declares a block variable that will always stick with what was named first.</i></p>
+                <p><i>Const - declares a block constant or cannot be changed period (will crash if done so).</i></p>
+                        <br>
+                    <p>as for the ones below, they are more like branches towards declaring as they also serve an ability towards doing so.</p>
+                        <br>
+                <p><i>If - marks a block of statements to activate when something happens.</i></p>
+                <p><i>Switch - Marks a block of statements to activate in different cases.</i></p>                
+                <p><i>For - marks a block of statements to activate in a loop.</i></p>
+                <p><i>Function - declares a function.</i></p>
+                <p><i>Return - exits a function.</i></p>
+                <p><i>Try - implements error handling to a block of statements.</i></p>
+                    </ol>
+                    <hr>
+                <p>For this example well write "Let x, y, z;"</p>
+                <p>Now, you need to STATE to the document what "x" means.</p>
+                <p>So lets write that "x = 3;", "y = 5;" and "z = x + y;"</p>
+                <p>By using all this stated information, you can combo them in many ways you'd desire</p>
+                    <br>
+                <p>Take a look at the example below, hover over it to see how it looks compiled.</p>
+                <img Id="EXAMPLE" src="JSmathEasyCode.png" alt="CODE EXAMPLE" width="516" height="182" onmouseover="src = 'JSmathEasyANSWER.png'" onmouseout="src = 'JSmathEasyCode.png'">
+                        <!--onmouseout is when the mouse isn't on top of it ... From onmouseover to onmouseout is how to revert an image back and forth with mouse-->
+
+            <div  style="background-color: rgba(9, 10, 12, 0.498); color:rgb(255, 255, 255)">
+                <h2>Applying Facts with Knowlege to make Digital Stuff</h2>
+                    <br>
+                    <hr>
+                    <br>
+                <p>As said in the Console Log, there's a section named "Script" within a document, lets talk about it.</p>
+                <p>Seeing the example image above, the code of "document.getElementbyId()" is one of the more iconic and easier examples to use in JS</p>
+                <p>But there's different ways of adding it depending on preference</p>
+                <p>going back to CSS, we can agree that there are differnt forms of adding styles.</p>
+                <p>JS is no different</p>
+                <p>When adding code you can either add it directly to the HTML element, within the head so it stays general, or on a seperate file.</p>
+                <p><b>These are Called .js files</b></p>
+                <p>Just like CSS, they come with their pros and cons each</p>
+                <ol style="text-align:center; list-style-position:inside;">
+                    <p><em>External JS - with these, you can create tons of code that combinds with certain HTML elements and easily apply to all files.</em></p>
+                    <p><em>Internal JS - Like External, you can make code within the "head" that can combind with HTML elements automatically.</em></p>
+                    <p><em>Inline JS - This can work more precicely on certain elements you want to have using JS.</em></p>
+                        </ol>
+
+        </div>
+        </div>
         </div>
             <br>
             <hr>
             <br>
-            <ul>
+        <div style="text-align:left">    
+            <ul>    
         <a href="Basics of HTML.html"><li>Learning the Basics of HTML</li></a>
             <br>
         <a href="Basics of CSS.html"><li>Learning the Basics of CSS</li></a>
@@ -47,5 +146,12 @@
             <br>
         <a href="JavaScript games.html"><li>Games made by using JavaScript</li></a>
             </ul>
+                </div>                
+                <script>
+                    let C;
+                    C = 'Its written as console.log() in code but is contained in a section named \'Script\' which can be placed in body or head. Since there\'s () on the log, you can also insert your own text to see on the log like how your reading this now. You can\'t just add text though, you need to create a variable.'
+                    console.log(C);
+                        //C is the information used to further explain console log ... Within Console log, wow!
+                </script>
         </body>
     </html>

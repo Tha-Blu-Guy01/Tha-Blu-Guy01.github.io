@@ -1,0 +1,17 @@
+body {
+    background-color: rgba(0, 0, 0, 0.75)
+}
+
+h1 {color: rgb(255, 255, 255);
+}
+
+h2 {font-size:xx-large; font-family:monospace}
+
+#JAVASCRIPTISFUNNY {background-image: url("Basics of JavaScript code.png");
+    background-blend-mode: darken;}
+    
+div {border: 8px solid rgb(11, 95, 0); 
+    padding: 17px;
+    text-align:center;
+}
+
