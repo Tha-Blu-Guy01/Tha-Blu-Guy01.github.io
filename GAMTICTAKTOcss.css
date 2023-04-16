@@ -1,0 +1,17 @@
+body {
+    background-color: rgba(0, 0, 0, 0.75)
+}
+
+h1 {color: rgb(255, 255, 255);
+}
+
+h2 {font-size:xx-large; font-family:monospace}
+
+#TeekTaacToes {background-image: url("CACULATRcode.png");
+    background-blend-mode: darken;}
+
+p {font-size:large}
+
+a {color:white; 
+    font-size:large
+}

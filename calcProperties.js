@@ -1,7 +1,9 @@
-let answer
+let enter = {};
+let answer;
 let MissingOperation = "Please select an Operation"
 let NotCool = "Why are you dividing by zero?"
 let Funny = "Woah, funny number hahahahaahhaahahufiawoae"
+
 
 function init() {
 let numeroUno = document.getElementById('Question1').value * 1

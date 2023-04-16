@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Tic Tac Toe</title>
+            <link rel="stylesheet" href="css.css">
+                <!--MAKE A NEW CSS TO FIT THE PAGE-->
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="icon" type="image/x-icon" href="GAMINGfavicon.ico">
+
+            <style>
+            
+            body {margin: 0;}
+            .topnav {overflow: hidden; background-color: hsla(0, 0%, 0%, 0.75);}
+            .topnav a {float: left; color: #f2f2f2; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px;}
+            .topnav a:hover {background-color: rgba(45, 184, 50, 0.95); color: rgb(255, 255, 255);}
+
+            .green {border: 8px solid rgb(11, 95, 0)}
+
+            </style>
+        </head>
+        <body id="CACULATR">
+
+            <div class="topnav green" style="font-family:cursive">
+                <a href="Index.html">Home</a>
+                <a href="Basics of HTML.html">HTML</a>
+                <a href="Basics of CSS.html">CSS</a>
+                <a href="Basics of JavaScript.html">Javascript</a>
+                <a href="JavaScript games.html">Games</a>
+              </div>
+                <br>
+             <!--GAME CODE BEGINS BELOW HERE-->
+        
+        <h1 id="WhosTurnIsIt?">Lets start with X</h1>
+
+    <div id="ENTIREinfo">
+                <br>
+        <div id="Game">
+                    <!--the order for border style is: top-border, right-border, bottom-border, and left-boarder *boarder-style tells which border side will appear there* -->
+                <div class="EMPTI" id="1EMPTI" style="border-style: none solid solid none"></div>
+                <div class="EMPTI" id="2EMPTI" style="border-style: none solid solid solid"></div>
+                <div class="EMPTI" id="3EMPTI" style="border-style: none none solid none"></div>
+                <div class="EMPTI" id="4EMPTI" style="border-style: solid solid solid none"></div>
+                <div class="EMPTI" id="5EMPTI"></div>
+                <div class="EMPTI" id="6EMPTI" style="border-style: solid none solid solid"></div>
+                <div class="EMPTI" id="7EMPTI" style="border-style: solid solid none none"></div>
+                <div class="EMPTI" id="8EMPTI" style="border-style: solid solid none solid"></div>
+                <div class="EMPTI" id="9EMPTI" style="border-style: solid none none solid"></div>
+
+        </div>
+    </div>
+        <div>
+            <span id="REPLAY"></span>
+        </div>
+            <!--GAME CODE STOPS HERE-->
+            <br>
+            <hr>
+            <br>
+        <div style="text-align:left" class="green">  
+            <ul>
+        <a href="Basics of HTML.html"><li>Learning the Basics of HTML</li></a>
+            <br>
+        <a href="Basics of CSS.html"><li>Learning the Basics of CSS</li></a>
+            <br>
+        <a href="Basics of JavaScript.html"><li>Learning the Basics of JavaScript</li></a>
+            <br>
+        <a href="JavaScript games.html"><li>Games made by using JavaScript</li></a>
+            </ul>
+        </div>
+
+    
+
+        </body>
+        <script src="TiTaToGAME.js">
+        </script>
+    </html>

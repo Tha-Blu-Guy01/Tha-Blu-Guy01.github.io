@@ -1,0 +1,95 @@
+body {
+    background-color: rgba(0, 0, 0, 0.75)
+}
+
+h1 {color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h2 {font-size:xx-large; font-family:monospace}
+
+#CACULATR {background-image: url("TcTaToCODE.png");
+        background-blend-mode: darken;}
+    
+div {padding: 17px;
+    text-align:center;
+}
+
+p {font-size:large}
+
+a {color:white; 
+    font-size:large;
+}
+
+button {
+    font-size: 2.1em;
+    background-color: #63e35a;
+    color: #19156d;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+button:hover, button:focus, button:active {
+    color: #63e35a;
+    background-color: #19156d;
+}
+
+    /* BELOW IS CODE FOR THE GAME TO ACTUALLY APPEAR */
+
+#Game {width:500px; 
+    height:500px; 
+    display:flex; 
+    flex-wrap:wrap;}
+
+.EMPTI {width:131.3px; 
+    height:130.5px;
+    border: 1px solid white;
+    background-color: rgba(0, 17, 69, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ENTIREinfo {display: flex;
+    justify-content: center;
+
+}
+
+.RoundPlayer {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    border: 25px solid rgb(20, 215, 20)
+}
+
+.TwoLinePlayer {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    border-radius: 50px;
+    transform: rotate(45deg)
+}
+
+.TwoLinePlayer:before, .TwoLinePlayer:after {
+    content: "";
+    position: absolute;
+    background-color:rgb(20, 215, 20)
+}
+
+.TwoLinePlayer:before {
+    left: 50%;
+    width: 26%;
+    margin-left: -14%;
+    margin-top: -45%;
+    height: 155%;
+    border-radius: 50px;
+}
+
+.TwoLinePlayer:after {
+    top: 50%;
+    height: 25px;
+    margin-top: -14%;
+    margin-left: -70%;
+    width: 150%;
+    border-radius: 50px;
+}
